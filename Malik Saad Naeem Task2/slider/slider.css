@@ -1,0 +1,49 @@
+.child {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  position: absolute;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parent {
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slide-buttons {
+  position: absolute;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+}
+
+.decrement {
+  left: 0;
+}
+
+.increment {
+
+  right: 0;
+}
+
+
+@media (min-width: 300px ) and (max-width: 700px) {
+  .parent{
+
+    height: 300px;
+  }
+
+
+  
+}
