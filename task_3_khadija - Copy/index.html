@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Get the best interior design solutions. Sign up now to explore more!" />
+    <meta name="keywords" content="interior design, home decor, kitchen design, office design" />
+    <meta name="author" content="Your Company Name" />
+    <title>Task-2</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>WELCOME</h1>
+    </header>
+
+    <!-- Image Slider -->
+    <div class="sliderPage">
+      <div class="slideRow1">
+        <div class="slideContent">
+          <button class="back"><i class="fa-solid fa-chevron-left"></i></button>
+          <div class="slideInner">
+            <img class="children4 imgs" src="images/image1.avif" loading="lazy"></img>
+            <img class="children1 imgs" src="images/image2.avif" loading="lazy"></img>
+            <img class="children4 imgs" src="images/image3.avif" loading="lazy"></img>
+            <img class="children2 imgs" src="images/image4.avif" loading="lazy"></img>
+            <img class="children3 imgs"  src="images/image5.avif" loading="lazy"></img>
+            <img class="children4 imgs" src="images/image6.avif" loading="lazy"></img>
+            <img class="children5 imgs" src="images/image7.avif" loading="lazy"></img>
+            <img class="children6 imgs" src="images/image8.avif" loading="lazy"></img>
+            <img class="children3 imgs" src="images/image9.avif" loading="lazy"></img>
+          </div>
+
+          <button class="next">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordion Section -->
+    <section class="accordion-section">
+      <h2>FAQ</h2>
+      <div class="accordion">
+        <button class="accordion-btn">
+          Do you do all kinds og interior designing?
+        </button>
+        <div class="panel">
+          <p>Yes! we provide all kinds of interior designing.</p>
+        </div>
+
+        <button class="accordion-btn">
+          What is your price range for kitchen interior?
+        </button>
+        <div class="panel">
+          <p>It depends on your desing.</p>
+        </div>
+
+        <button class="accordion-btn">Do you have any corporate office?</button>
+        <div class="panel">
+          <p>No! we only provide services online.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal Section -->
+    <section class="modal-section">
+      <h2>Click to see more!</h2>
+      <button id="openModal">Sign Up</button>
+
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h3>Sign Up here!</h3>
+          <p class="sign">Username</p>
+          <input placeholder="username" />
+          <p class="sign">Password</p>
+          <input placeholder="Password" type="password" />
+          <br /><br />
+          <button href="#">sing up</button>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
